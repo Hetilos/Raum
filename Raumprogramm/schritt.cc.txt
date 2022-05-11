@@ -1,0 +1,33 @@
+#include <stdio.h>
+void main ()
+{
+        char wand[2];
+        char stuhl[2];
+        int i;
+
+        for (i=1;i<=4;i++)
+        {
+                do
+                {
+                        printf ("Schritt!\n");
+                        printf ("Ist schon die Wand da?\n");
+                        scanf("%s",wand);
+                }
+                while   (wand[0] != 'y' && wand[0] != 'Y' );
+                        printf ("Drehung nach links \n");
+        }
+
+                do
+                {
+                        printf("Ist der Stuhl da?\n");
+                        scanf("%s", stuhl);
+                }
+                while   (stuhl[0] != 'y' && stuhl[0] != 'Y');
+                        printf("stuhl erreicht\n");
+
+}
+
+int k;
+for (k=0;k<=14;k)
+{printf("Schritt");
+        k++

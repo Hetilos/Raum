@@ -1,0 +1,5 @@
+all:schritt.o schritt
+ill:schritt.c
+        cc -c schritt.c
+ill:schritt.o
+        cc -o schritt schritt.o
